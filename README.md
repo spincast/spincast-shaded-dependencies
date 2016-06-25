@@ -1,0 +1,1 @@
+Shaded dependencies used by the Spincast Framework
