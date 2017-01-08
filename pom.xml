@@ -38,12 +38,6 @@
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpmime</artifactId>
             <version>4.5.2</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>commons-lang</groupId>
-                    <artifactId>commons-lang</artifactId>
-                </exclusion>
-            </exclusions>
         </dependency>
         
         <dependency>
@@ -56,12 +50,6 @@
         	<groupId>org.apache.commons</groupId>
         	<artifactId>commons-lang3</artifactId>
         	<version>3.4</version>
-        </dependency>
-        
-        <dependency>
-            <groupId>org.commonjava.mimeparse</groupId>
-            <artifactId>mimeparse</artifactId>
-            <version>0.1.3.3</version>
         </dependency>
         
         <dependency>
@@ -93,10 +81,6 @@
                                     <pattern>org.apache</pattern>
                                     <shadedPattern>org.spincast.shaded.org.apache</shadedPattern>
                                 </relocation>
-                                <relocation>
-                                    <pattern>org.commonjava</pattern>
-                                    <shadedPattern>org.spincast.shaded.org.commonjava</shadedPattern>
-                                </relocation> 
                             </relocations>
                             
                             <shadeSourcesContent>true</shadeSourcesContent>
