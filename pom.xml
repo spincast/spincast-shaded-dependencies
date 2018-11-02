@@ -63,6 +63,12 @@
             <artifactId>commons-text</artifactId>
             <version>1.4</version>
         </dependency>
+        
+        <dependency>
+            <groupId>org.jsoup</groupId>
+            <artifactId>jsoup</artifactId>
+            <version>1.11.2</version>
+        </dependency>
  
 	</dependencies>
 
@@ -86,6 +92,10 @@
                                 <relocation>
                                     <pattern>org.apache</pattern>
                                     <shadedPattern>org.spincast.shaded.org.apache</shadedPattern>
+                                </relocation>
+                                <relocation>
+                                    <pattern>org.jsoup</pattern>
+                                    <shadedPattern>org.spincast.shaded.org.jsoup</shadedPattern>
                                 </relocation>
                             </relocations>
                             
